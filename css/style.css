@@ -1,0 +1,581 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* fonts */
+
+h1 {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 96px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  color: #9F0908;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  margin: 0;
+  color: #000000;
+}
+
+h4 {
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+/* hero section */
+
+.hero_container {
+  background-image: url(../img/1_hero/JPG/hero_bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  /*background-position: center;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  box-sizing: border-box; 
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+  ;
+}
+
+.navLink:hover {
+  color: red;
+}
+
+.language-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.language-button img {
+  width: 24px; /* Größe anpassen */
+  height: 24px;
+}
+
+.language-button:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-around;
+  height: 112px;
+  align-items: center;
+}
+
+.hero_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Navi*/
+.header_menu {
+  display: flex;
+  align-items: center;
+}
+
+.header_style {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: red;
+}
+
+.header_logo {
+  width: 64px;
+  height: 64px;
+}
+
+.phone {
+  background-color: red;
+  border: groove;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.phone:hover {
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+/* order section */
+
+.order {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.order_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+  margin-top: 120px;
+}
+
+.order_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_text {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+/* ourmenu section */
+
+.ourmenu_container {
+  background-image: url(../img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.ourmenu_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 64px;
+}
+
+.meal_one { 
+  display: flex;           
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.meal_img_left {
+  padding-right: 80px;
+}
+
+.meal_image_format {
+  object-fit: cover;
+  width:352px;
+  height:352px;
+}
+
+.meal_menu {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  color: #675E54;
+}
+
+.meal_name {
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.meal_name {
+  font-size: 32px;
+}
+
+.menu_choice{
+  padding-right: 200px;
+  padding-bottom: 8px;
+}
+
+.meal_two { 
+  display: flex;           
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.meal_img_right {
+  margin-left: 80px;
+}
+
+.meal_three {
+  display: flex;            
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+/* findusat section */
+
+.findusat_title {
+  padding-top: 120px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  font-style: normal;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+.address_marker {
+  width: 24px;
+  height: 24px;
+}
+
+.adress_format {
+  margin: 0px;
+}
+
+.google-maps {
+  width: 100%;
+  height: 450px;
+}
+
+/* footer */
+
+.footer { 
+  height: 144px;
+  background-color: #0A141E;           
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_logo_text {
+  height: 44px;
+}
+
+.footer_logo {
+  display: none;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.social_media {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease; /* Adds a smooth transition effect */
+}
+
+#about a:hover .social_media {
+  transform: scale(1.2); /* Enlarges the icon by 20% */
+}
+
+@media (max-width: 970px){
+
+  .hide_tablet {
+      display: none;
+  }
+  
+  /* fonts */
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+  /* hero section */
+
+    .hero_container {
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: space-between;
+        margin: 24px;
+    }
+
+    .header_style {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .tel_icon {
+        width: 20px;
+    }
+
+  /* order section */
+
+    .order_container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .order_title {
+        margin-bottom: 48px;
+        margin-top: 96px;
+    }
+    
+    .order {
+      margin-bottom: 96px; 
+    }
+
+    .order_img {
+        width: 112px;
+    }
+
+  /* ourmenu section */
+
+    .ourmenu_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourmenu_title {
+      padding-top: 96px;
+      padding-bottom: 48px;
+    }
+
+    .meal_one {
+        margin-bottom: 32px;
+    }
+
+    .meal_img_left {
+      padding-right: 24px;
+    }
+
+    .meal_image_format {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .meal_menu {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .meal_text {
+      font-size: 24px;
+    }
+
+    .menu_choice {
+      padding-right: 80px;
+      padding-bottom: 8px;
+    }
+
+    .meal_two {
+        margin-bottom: 32px;
+    }
+
+    .meal_img_right {
+      margin-left: 24px;
+    }
+
+    .meal_three {
+        padding-bottom: 96px;
+    }
+
+  /* findusat section */
+
+    .findusat_title {
+        padding-top: 96px;
+    }
+
+    .address {
+        padding-bottom: 48px;
+    }
+
+    .address_marker{
+      width: 20px;
+      height: 20px;
+    }
+
+    .adress_format {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px){
+
+  /* fonts */
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+  /* hero section */
+
+    .header {
+        height: 64px;
+        margin: 16px;
+    }
+
+    .header-style {
+        font-size: 16px;
+    }
+
+    .header_logo {
+      width: 40px;
+      height: 40px;
+    } 
+
+    .tel-icon {
+        width: 16px;
+    }
+
+  /* order section */
+
+    .order_title {
+        margin-bottom: 40px;
+        margin-top: 72px;
+    }
+
+    .order {
+        margin-bottom: 72px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+  /* ourmenu section */
+
+    .ourmenu_title {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+    
+    .meal_one {
+      margin-bottom: 32px;
+      flex-direction: column;
+    }
+
+    .meal_img_left {
+      padding-right: 0px;
+      padding-bottom: 24px;
+    }
+
+    .meal_menu {
+      align-items: center;
+    }
+
+    .meal_name {
+        justify-content: center;
+    }
+
+    .meal_two {
+      flex-direction: column-reverse;
+      margin-bottom: 32px;
+    }
+
+    .meal_img_right {
+      margin-left: 0px;
+      padding-bottom: 24px;
+    }
+
+    .meal_three {
+        padding-bottom: 72px;
+        flex-direction: column;
+    }
+
+  /* findusat section */
+  
+    .findusat_title {
+        padding-top: 72px;
+    }
+
+    .address {
+        padding-bottom: 40px;
+    }
+
+    .address_marker {
+      width: 16px;
+      height: 16px;
+    }
+
+    .adress_format {
+        font-size: 16px;
+    }
+
+  /* footer */
+
+    .footer {
+        height: 86px;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .footer_logo_text {
+      display: none;
+    }
+
+    .footer_logo {
+      display: flex;
+      height: 40px;
+    }
+
+    #about {
+        justify-content: space-evenly;
+    }
+
+    .social_media {
+        width: 32px;
+        height: 32px;
+    }
+}
