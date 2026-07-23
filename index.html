@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="pageTitle">Sakura Ramen - Das beste Ramen der Stadt</title>
+  <meta name="description" data-i18n-content="metaDescription"
+    content="Sakura Ramen in München: hausgemachte Ramen aus frischer Brühe. Tonkotsu, Spicy Miso und Shio, täglich frisch in der Kapuzinerstraße.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sakura Ramen">
+  <meta property="og:description" content="Das beste Ramen der Stadt - Kapuzinerstraße 31, München">
+  <meta property="og:url" content="https://sakura.weskakay.de/">
+  <meta property="og:image" content="https://sakura.weskakay.de/img/3_section_our_menu/Png/R1.png">
+
+  <link rel="icon" href="./img/1_hero/SVG/sakura_logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="./js/i18n.js" defer></script>
+  <script src="./js/ui.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Zum Inhalt springen</a>
+
+  <header class="site-header" id="site-header">
+    <a class="site-header__brand" href="#top" data-i18n-aria="brandAria">
+      <img src="./img/1_hero/PNG/sakura_logo.png" alt="" width="64" height="64">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+      data-i18n-aria="menuToggle">
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav">
+      <ul class="site-nav__list">
+        <li><a class="site-nav__link" href="#menu" data-i18n="navMenu">MENÜ</a></li>
+        <li><a class="site-nav__link" href="#locations" data-i18n="navLocations">ORT</a></li>
+        <li><a class="site-nav__link" href="#about" data-i18n="navAbout">ÜBER UNS</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="phone" href="tel:+4917654564534" data-i18n-aria="callAria">
+        <img class="phone__icon" src="./img/1_hero/PNG/phone.png" alt="" width="24" height="24">
+        <span class="phone__number">0176 54564534</span>
+      </a>
+      <div class="lang-switch">
+        <button class="lang-switch__button" type="button" data-lang="de" data-i18n-aria="switchToDe">
+          <img src="./img/6_language/de.jpg" alt="" width="24" height="24">
+        </button>
+        <button class="lang-switch__button" type="button" data-lang="en" data-i18n-aria="switchToEn">
+          <img src="./img/6_language/en.jpg" alt="" width="24" height="24">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <span class="hero__sentinel" aria-hidden="true"></span>
+      <div class="hero__petals" aria-hidden="true">
+        <span class="petal"></span>
+        <span class="petal"></span>
+        <span class="petal"></span>
+        <span class="petal"></span>
+        <span class="petal"></span>
+        <span class="petal"></span>
+      </div>
+      <div class="hero__title">
+        <h1>SAKURA RAMEN</h1>
+        <p class="hero__claim" data-i18n="heroSubtitle">DAS BESTE RAMEN IN DER STADT</p>
+      </div>
+    </section>
+
+    <section class="order">
+      <h2 class="section-title reveal" data-i18n="orderTitle">WIE WIRD BESTELLT</h2>
+      <ol class="order__steps">
+        <li class="order__step reveal">
+          <img class="order__icon" src="./img/2_section_how_to_order/PNG/noodle.png"
+            data-i18n-alt="altNoodle" alt="Schale mit Nudeln und Essstäbchen" width="128" height="128">
+          <p class="order__label" data-i18n="orderNoodle">Wähle deine
+Nudeln</p>
+        </li>
+        <li class="order__step reveal">
+          <img class="order__icon" src="./img/2_section_how_to_order/PNG/broth.png"
+            data-i18n-alt="altBroth" alt="Dampfende Schale Brühe" width="128" height="128">
+          <p class="order__label" data-i18n="orderBroth">Wähle deine
+Brühe</p>
+        </li>
+        <li class="order__step reveal">
+          <img class="order__icon" src="./img/2_section_how_to_order/PNG/egg.png"
+            data-i18n-alt="altEgg" alt="Halbiertes gekochtes Ei" width="128" height="128">
+          <p class="order__label" data-i18n="orderToppings">Toppings
+hinzufügen</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="menu" id="menu">
+      <h2 class="section-title reveal" data-i18n="menuTitle">UNSER MENÜ</h2>
+
+      <article class="meal reveal">
+        <img class="meal__image" src="./img/3_section_our_menu/Png/R1.png"
+          data-i18n-alt="altTonkotsu" alt="Tonkotsu Ramen mit Ei, Nori und Frühlingszwiebeln" width="352" height="352">
+        <div class="meal__body">
+          <h3 class="meal__name">Tonkotsu Ramen</h3>
+          <ul class="meal__variants">
+            <li class="meal__variant">
+              <span data-i18n="choiceChicken">HÜHNCHEN</span><span class="meal__price">11,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceBeef">RIND</span><span class="meal__price">12,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceShrimp">GARNELE</span><span class="meal__price">13,95 €</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="meal meal--reverse reveal">
+        <img class="meal__image" src="./img/3_section_our_menu/Png/R2.png"
+          data-i18n-alt="altMiso" alt="Spicy Miso Ramen mit Chashu und eingelegtem Ingwer" width="352" height="352">
+        <div class="meal__body">
+          <h3 class="meal__name">Spicy Miso Ramen</h3>
+          <ul class="meal__variants">
+            <li class="meal__variant">
+              <span data-i18n="choiceChicken">HÜHNCHEN</span><span class="meal__price">11,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceBeef">RIND</span><span class="meal__price">12,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceShrimp">GARNELE</span><span class="meal__price">13,95 €</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="meal reveal">
+        <img class="meal__image" src="./img/3_section_our_menu/Png/R3.png"
+          data-i18n-alt="altShio" alt="Shio Ramen mit Bambus, Wakame und Schweinebauch" width="352" height="352">
+        <div class="meal__body">
+          <h3 class="meal__name">Shio Ramen</h3>
+          <ul class="meal__variants">
+            <li class="meal__variant">
+              <span data-i18n="choiceChicken">HÜHNCHEN</span><span class="meal__price">11,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceBeef">RIND</span><span class="meal__price">12,95 €</span>
+            </li>
+            <li class="meal__variant">
+              <span data-i18n="choiceShrimp">GARNELE</span><span class="meal__price">13,95 €</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="find-us" id="locations">
+      <h2 class="section-title reveal" data-i18n="findUsTitle">FINDE UNS</h2>
+      <p class="find-us__address reveal">
+        <img class="find-us__marker" src="./img/4_section_find_us_at/PNG/map_marker.png" alt="" width="24" height="24">
+        Kapuzinerstraße 31, München, 80337
+      </p>
+      <div class="map" data-map-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1331.602497014032!2d11.561223!3d48.12557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1710272881581!5m2!1sde!2sde">
+        <p class="map__notice" data-i18n="mapNotice">
+          Die Karte wird erst nach dem Klick von Google geladen. Dabei werden Daten an Google übertragen.
+        </p>
+        <button class="map__button" type="button" data-i18n="mapButton">Karte laden</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <img class="site-footer__wordmark" src="./img/5_section_footer/PNG/sakura_ramen_logo_and_text.png"
+      alt="Sakura Ramen" width="278" height="40">
+    <img class="site-footer__mark" src="./img/1_hero/PNG/sakura_logo.png" alt="Sakura Ramen" width="40" height="40">
+
+    <ul class="social">
+      <li>
+        <a class="social__link" href="http://www.tripadvisor.de/Hotels" target="_blank" rel="noopener noreferrer"
+          aria-label="Tripadvisor">
+          <img src="./img/5_section_footer/PNG/tripadvisor_logo.png" alt="" width="32" height="32">
+        </a>
+      </li>
+      <li>
+        <a class="social__link" href="http://www.facebook.com/?locale=de_DE" target="_blank" rel="noopener noreferrer"
+          aria-label="Facebook">
+          <img src="./img/5_section_footer/PNG/facebook_logo.png" alt="" width="32" height="32">
+        </a>
+      </li>
+      <li>
+        <a class="social__link" href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram">
+          <img src="./img/5_section_footer/PNG/instagrram_logo.png" alt="" width="32" height="32">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
